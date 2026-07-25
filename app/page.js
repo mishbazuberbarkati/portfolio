@@ -286,7 +286,7 @@ function Navbar() {
           </nav>
           <div className="flex items-center gap-2">
             <Magnetic>
-              <a href="/MishbaResume.pdf" target="_blank" rel="noreferrer"
+              <a href="/portfolio/MishbaResume.pdf" target="_blank" rel="noreferrer"
                 className="hidden sm:inline-flex items-center gap-2 rounded-xl bg-white text-neutral-900 px-4 py-2 text-sm font-semibold hover:bg-neutral-200 transition-colors">
                 <Download className="w-4 h-4" /> Resume
               </a>
@@ -372,7 +372,7 @@ function Hero() {
                 </a>
               </Magnetic>
               <Magnetic>
-                <a href="/MishbaResume.pdf" target="_blank" rel="noreferrer" data-cursor
+                <a href="/portfolio/MishbaResume.pdf" target="_blank" rel="noreferrer" data-cursor
                   className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-3 font-semibold hover:border-white/20 hover:bg-white/5 transition-colors">
                   <Download className="w-4 h-4" /> Download CV
                 </a>
@@ -775,7 +775,7 @@ function Contact() {
                   </a>
                 </Magnetic>
                 <Magnetic>
-                  <a href="/MishbaResume.pdf" target="_blank" rel="noreferrer"
+                  <a href="/portfolio/MishbaResume.pdf" target="_blank" rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-3 font-semibold hover:bg-white/5">
                     <Download className="w-4 h-4" /> Download Resume
                   </a>
