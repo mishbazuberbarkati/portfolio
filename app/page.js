@@ -494,19 +494,16 @@ function About() {
         <div className="grid md:grid-cols-[1.2fr_0.8fr] gap-10">
           <div className="space-y-5 text-neutral-300 leading-relaxed">
             <motion.p initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp}>
-              Since 2017, I've worked across the full frontend stack — Angular, React.js, Next.js, and WordPress —
-              turning Figma files into interfaces that hold up on real devices and real connections, not just on a
-              designer's monitor.
+             Since 2017, I’ve been building responsive, pixel-perfect, and high-performance web applications using HTML, CSS, JavaScript, React.js, Next.js, Angular, Bootstrap, Tailwind CSS, and WordPress — transforming Figma designs into scalable, user-friendly digital experiences.
             </motion.p>
             <motion.p initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} custom={1}>
-              That work grew into leading a UI team: setting code review standards, choosing the patterns the team
-              would use, and being the person accountable when performance or scalability targets were on the line.
-              I care as much about how a codebase ages as how a launch demo looks.
+             Over the years, my role evolved from hands-on frontend development to leading UI developers, providing technical guidance, mentoring, conducting code reviews, and establishing frontend standards and best practices. I’ve worked closely with design, product, and marketing teams to build interfaces that perform well across devices, browsers, and real-world conditions.
             </motion.p>
-            <motion.p initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} custom={2}>
-              My specialization sits at the intersection of frontend engineering and outcomes that matter to a business —
-              Lighthouse and PageSpeed scores, organic traffic, and load times that survive a slow connection. I'm
-              currently an <span className="text-violet-300 font-semibold">immediate joiner</span>, open to opportunities
+            <motion.p  initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} custom={2}>
+              My work goes beyond visual implementation. I focus heavily on performance, scalability, SEO, and measurable results — improving Google PageSpeed scores from 55 to 90+, increasing organic traffic by 30% through technical SEO, and migrating the TDX platform from Angular to Next.js, reducing page load times by 40%. I’ve also worked with Sanity CMS to build flexible, content-driven experiences with Next.js.
+            </motion.p>
+            <motion.p initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} custom={3}>
+             Currently working as a Freelance Web Developer, I’m also an <span className="text-violet-300 font-semibold">immediate joiner</span>, open to opportunities
               in Noida, Gurugram, or remote.
             </motion.p>
           </div>
